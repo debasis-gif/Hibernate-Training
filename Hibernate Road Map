@@ -1,0 +1,57 @@
+1. Hibernate Introduction ("Hibernate Notes.pptx" - pg 1.)
+
+2. Hibernate Theory ("Hibernate Notes.pptx" - pg 2.)
+
+3. Hibernate Practical 1 - Save Not Working (App.java, pom.xml, Alien.java, "Hibernate Notes.pptx" - pg 3.)
+
+4. How to add Hibernate Plugin in Eclipse ("Hibernate Notes.pptx" - pg 4.)
+
+5. Configuration File ("Hibernate Notes.pptx" - pg 4.)
+
+6. Hibernate Practical 2 - Save Working with Error & show_sql property 
+(App.java, pom.xml, Alien.java, hibernate.cfg.xml [creation/Updation of table], "Hibernate Notes.pptx" - pg 5.)
+
+7. Annotations (App.java, Alien.java, hibernate.cfg.xml )
+
+8. Fetch data with Hibernate (AppFetch.java, Alien.java, hibernate.cfg.xml )
+
+9. How to use Embeddable Object (AppEmbedSave.java, AlienName.java, AlienEmbed.java, hibernate.cfg.xml)
+
+10. Mapping Relations Theory ("Hibernate Notes.pptx" - pg 6.)
+
+11. Mapping Relations Practical (Laptop.java, Student.java, AppStudentLaptop.java )
+
+12. Hibernate Caching ("Hibernate Notes.pptx" - pg 7.)
+
+13. Hibernate Caching Level 1 (AlienCache.java, AppCache.java  )
+
+14. Hibernate Caching Level 2 ( "Hibernate Notes.pptx" - pg 8, AlienEhCache.java, AppEhCache.java, pom.xml, hibernate.cfg.xml )
+
+15. Hibernate Caching Level 2 with Query (AlienEhCache.java, AppEhCacheQuery.java, hibernate.cfg.xml )
+
+16. HQL theory ( "Hibernate Notes.pptx" - pg 9)
+
+17. HQL Part 1 (AppHql.java, Students.java)
+
+18. HQL Part 2 (AppHql.java, Students.java  )
+
+19. HQL Part 3 (AppSql.java, Students.java  )
+
+20. Hibernate Object States / Persistence Life Cycle ( "Hibernate Notes.pptx" - pg 10)
+
+21. Hibernate Object States / Persistence Life Cycle Practical ( LaptopLifeCycle.java, AppLifeCycle.java )
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

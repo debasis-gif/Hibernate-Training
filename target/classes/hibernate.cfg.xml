@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-configuration PUBLIC
+		"-//Hibernate/Hibernate Configuration DTD 3.0//EN"
+		"http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd">
+<hibernate-configuration>
+	<session-factory>
+		<property name="hibernate.connection.driver_class">com.mysql.jdbc.Driver</property>
+		<property name="hibernate.connection.password">password</property>
+		<property name="hibernate.connection.url">jdbc:mysql://localhost:3306/jsp?autoReconnect=true&amp;useSSL=false</property>
+		<property name="hibernate.connection.username">root</property>
+		<property name="hibernate.dialect">org.hibernate.dialect.MySQLDialect</property>
+		<!-- Dialect is SQL syntax depending on the database being used -->
+
+		<!-- it creates the entities with "create" property if the table does not 
+			exist or drops the existing table and create fresh -->
+		<!-- or updates the table if present, but without changing the structure -->
+		<property name="hbm2ddl.auto">update</property>
+
+		<!-- Show SQL property on console -->
+		<property name="show_sql">true</property>
+
+		<!--Setting Session context model -->
+		<property name="current_session_context_class">thread</property>
+
+		<!-- Setting for EHCache >> Second Level Caching -->
+		<property name="hibernate.cache.use_second_level_cache">true</property>
+		<property name="hibernate.cache.region.factory_class">org.hibernate.cache.ehcache.EhCacheRegionFactory</property>
+		<!-- earlier to version 4 of Hibernate the provider class was "hibernate.cache.provider_configuration_file_resource_path" -->
+		<!-- from Hibernate version 4 onwards the provider property of hibernate-ehcache 
+			 is the above mentioned -->
+	 	
+	 	<property name="hibernate.cache.use_query_cache">true</property> 
+	 	<!-- This property is set to enable HQL query to use second level caching  -->
+	 	
+	</session-factory>
+</hibernate-configuration>
+
+
+ 
